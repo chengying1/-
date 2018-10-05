@@ -40,4 +40,9 @@ export default {
     display: block;
     clear: both;
   }
+  .img{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
 </style>

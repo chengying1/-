@@ -24,6 +24,12 @@ export default new Router({
       path: '/writeNote',
       meta:{title:"写笔记"},
       component: () => import('../views/writeNote.vue')
+    },
+    {
+      path: '/article/:id',
+      meta:{title:"文章详情"},
+      name:'article',
+      component: () => import('../views/article.vue')
     }
   ]
 })
